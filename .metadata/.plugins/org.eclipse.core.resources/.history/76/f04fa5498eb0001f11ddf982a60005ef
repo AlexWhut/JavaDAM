@@ -1,0 +1,20 @@
+package exercises;
+
+public class TestCode2Metodos {
+	
+	private int number = 4;
+	private int [] array = {0, 2, 3, 4, 5};
+
+	public static int obnum(int input) {
+		
+		
+	}
+	
+
+	public static void sort(int[] array) {
+
+		
+		
+	}
+	
+}

@@ -1,0 +1,22 @@
+package EntregaBryan;
+
+public class E31ArrCircular {
+	public static void main(String[] args) {
+		
+		int [] arr = {1,2,3,4,5};
+		
+		arr[1] = 2; //aux
+		arr[0] = arr[4];
+		arr[2] = arr[3];
+		arr[3] = arr[4];
+		
+		
+		
+		
+		for(int i : arr) {
+			int operation = arr[i] -1;
+			
+			System.out.println(i);
+		}
+	}
+}

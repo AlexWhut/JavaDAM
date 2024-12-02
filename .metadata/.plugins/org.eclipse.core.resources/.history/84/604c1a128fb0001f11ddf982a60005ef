@@ -1,0 +1,23 @@
+package exercises;
+import java.util.Scanner;
+
+public class TestCode2Metodos {
+	static Scanner input = new Scanner(System.in);
+	
+	
+	
+	private int [] array = new int [0];
+
+	public static int obnum (static int inputUser) {
+		inputUser = input.nextInt();
+		
+	}
+	
+
+	public static void sort(int[] array) {
+
+		
+		
+	}
+	
+}

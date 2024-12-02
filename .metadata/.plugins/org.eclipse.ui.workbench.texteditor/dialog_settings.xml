@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="int"/>
+		<item value="suma"/>
+		<item value="sumaTotal"/>
+	</list>
+	<list key="replacehistory">
+		<item value="double"/>
+		<item value="operacion"/>
+		<item value="resultado"/>
+	</list>
+</section>

@@ -1,0 +1,41 @@
+package exercises;
+import java.util.Scanner;
+
+public class TestCode2Metodos {
+	static Scanner input = new Scanner(System.in);
+	
+	
+	
+	private static int [] array = new int [0];
+
+	public static void pedirNumeros (int array[]) {
+		
+		System.out.println("Digita numeros positivos a añadir al array");
+		System.out.println("Presiona -1 para parar el array");
+		
+		
+		for(int i = 0; i < array.length; i++) {
+			String inputUser = input.next();
+			Integer.parseInt(inputUser);
+			
+			if (array.length >= 0) {
+				array[i] = array.length + 1;
+			}
+		}
+		
+		for (int i : array) {
+			System.out.println(i);
+		}
+		
+		return;
+	}
+	
+	
+	public static void sort(int[] array) {
+		
+		
+		
+		
+	}
+	
+}
